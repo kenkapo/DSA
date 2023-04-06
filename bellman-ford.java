@@ -5,6 +5,7 @@
 //negative cycle detection->try Nth iteration and if distance array gets upadtes means it has a negative cycle.
 //negative cycle-> if a graph has path weight < 0.
 //TC->O(V*E)
+//bellman ford can also be applied to UG , just convert them to DG
 class Solution
 {
     public int isNegativeWeightCycle(int n, int[][] edges)
