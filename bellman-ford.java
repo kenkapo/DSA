@@ -4,6 +4,7 @@
 //why N-1 iterations->because in the worst case, all the nodes will take N-1 iterations to update distance array
 //negative cycle detection->try Nth iteration and if distance array gets upadtes means it has a negative cycle.
 //negative cycle-> if a graph has path weight < 0.
+//TC->O(V*E)
 class Solution
 {
     public int isNegativeWeightCycle(int n, int[][] edges)
