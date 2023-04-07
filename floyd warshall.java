@@ -1,6 +1,7 @@
 //can be used to detect negative cycle as well
 //if matrix[i][i]<0,it contains a negative cycle
 //it is a multisource shortest path algorithm
+//used for directed graph and undirected graphs.
 class Solution
 {
     public void shortest_distance(int[][] matrix)
