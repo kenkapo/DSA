@@ -1,6 +1,7 @@
 //used for minimum spanning tree.
 //spanning tree->graph with N nodes and N-1 edges.
 //MST->spanning tree with minimum weight.
+//TC->E log(E)
 class Solution{
     public static class Pair implements Comparable<Pair>
     {
