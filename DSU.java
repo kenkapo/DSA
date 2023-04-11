@@ -19,10 +19,10 @@ class Solution
             return u;
         }
         int p=findPar(par.get(u));
-        par.set(u,p);
+        par.set(u,p);//path compression
         return p;
     }
-    public void ubr(int u,int v)
+    public void ubr(int u,int v) // union by rank
     {
         int pu=findPar(u),pv=findPar(v);
         if(pu==pv){return;}
@@ -40,7 +40,7 @@ class Solution
             rank.set(pu,rank.get(pu)+1);
         }
     }
-    public void ubs(int u,int v)
+    public void ubs(int u,int v)//union by size
     {
         int pu=findPar(u),pv=findPar(v);
         if(pu==pv){return;}
