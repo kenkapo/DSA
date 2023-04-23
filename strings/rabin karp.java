@@ -15,14 +15,24 @@ class Solution
         {
             if(sc==pc)
             {
-                System.out.println("pattern found at index "+(j));
+                int l;
+                for(int k=j;l=0; k<i && l<pat.length();k++;l++)
+                {
+                    if(s.charAt(k)!=pat.charAt(l)){break;}
+                }
+                if(l==pat.length()) System.out.println("pattern found at index "+(j));
             }
             sc=(d*(sc-h*s.charAt(j))%mod+s.charAt(i))%mod;
             j++;
         }
         if(sc==pc)
         {
-            System.out.println("pattern found at index "+(j));
+            int l;
+            for(int k=j;l=0; k<i && l<pat.length();k++;l++)
+            {
+                if(s.charAt(k)!=pat.charAt(l)){break;}
+            }
+            if(l==pat.length()) System.out.println("pattern found at index "+(j));       
         }
         return ;
     }
