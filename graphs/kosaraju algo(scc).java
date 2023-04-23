@@ -1,6 +1,7 @@
 //this algo is used to find SCC in a graph.
 //SCC stands for strongly connected components.
 //AN SCC is that component in a graph in which each node can visit every other node.
+//TC-> O(V+E)
 class Solution
 {
     //Function to find number of strongly connected components in the graph.
