@@ -1,0 +1,4 @@
+TO WRITE 1D recurrence relation do the following steps->
+1.express the problem in terms of index.
+2.do all possible stuffs on the index according to the question.
+3.return the thing that the problem is asking for.
