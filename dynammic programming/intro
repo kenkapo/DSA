@@ -8,4 +8,5 @@ SPACE OPTIMISATION->
 IF THERE IS SOMETHING LIKE index-1 OR index-2 THEN THERE CAN BE ALWAYS SPACE OPTIMISATION.
 
 TABULATION->
-1.declare the dp array of same size as declared in memeoisation.
+1.declare the dp array of same size as declared in memoisation.
+2.base case becomes initialisation.
