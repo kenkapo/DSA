@@ -10,3 +10,4 @@ IF THERE IS SOMETHING LIKE index-1 OR index-2 THEN THERE CAN BE ALWAYS SPACE OPT
 TABULATION->
 1.declare the dp array of same size as declared in memoisation.
 2.base case becomes initialisation.
+3.whatever you write for recursion , write the opposite for tabulation.
