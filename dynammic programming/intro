@@ -11,4 +11,4 @@ TABULATION->
 1.declare the dp array of same size as declared in memoisation.
 2.base case becomes initialisation.
 3.whatever you write for recursion , write the opposite for tabulation.
-4.In memoisation and tabulation, we declare the space same as that of changing parameters.
+4.In memoisation and tabulation, we declare the space same as that of changing parameters i.e. if there is 1 changing parameter ,then make 1d array. If there are 2 changing parameters then make 2d array.
