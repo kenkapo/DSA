@@ -6,6 +6,9 @@ TO WRITE 1D recurrence relation do the following steps->
 
 SPACE OPTIMISATION->
 IF THERE IS SOMETHING LIKE index-1 OR index-2 THEN THERE CAN BE ALWAYS SPACE OPTIMISATION.
+1D optimised to some varibles.
+2D optimised to 1D.
+3D optimised to 2D.
 
 TABULATION->
 1.declare the dp array of same size as declared in memoisation.
