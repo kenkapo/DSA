@@ -27,5 +27,5 @@
 	
 
 	Important patterns->
-	1.Dp on grids
-	2.Dp on subsequences.
+	1.Dp on grids -> parent problem-> MINIMUM PATH SUM.
+	2.Dp on subsequences -> parent problem-> SUBSET SUM EQUALS TARGET.
