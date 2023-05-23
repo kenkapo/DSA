@@ -1,3 +1,7 @@
+WHEN TO APPLY DYNAMMIC PROGRAMMING->
+when you are given choices and you are asked to find something optimal.
+
+
 RECURRENCE RELATION->
 TO WRITE 1D recurrence relation do the following steps->
 1.express the problem in terms of index.
