@@ -22,6 +22,8 @@
 	5.copy the recurrence.
 	6.instead of the function name in memoisation, replace that with dp in tabulation.
 	7.number of changing states in memoisation = number of nested loops in tabulation. 
+	8.bottom up means from base case to up.
+	9.top down means from up to base case and then after computing the answer from base case,we get the answer for top. 
 	
 
 	Important patterns->
