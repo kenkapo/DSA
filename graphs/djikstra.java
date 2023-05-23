@@ -2,7 +2,7 @@
 //TC-> ElogV.
 class Solution
 {
-    public int djikstra(List<List<int[]>>adj,int src)
+    public int[] djikstra(List<List<int[]>>adj,int src)
     {
         int n=adj.size();
         int []dis=new int [n];
