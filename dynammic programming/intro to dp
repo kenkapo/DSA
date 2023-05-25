@@ -8,6 +8,7 @@
 	1.express the problem in terms of index.
 	2.do all possible stuffs on the index according to the question.
 	3.return the thing that the problem is asking for.
+	4.when writing base case always assume that you have an array containing a single element.
 
 	SPACE OPTIMISATION->
 	IF THERE IS SOMETHING LIKE index-1 OR index-2 THEN THERE CAN BE ALWAYS SPACE OPTIMISATION.
