@@ -1,5 +1,6 @@
 	WHEN TO APPLY DYNAMMIC PROGRAMMING->
-	when you are given choices and you are asked to find something optimal.
+	1.when you are given choices and you are asked to find something optimal.
+	2.the greedy approach will fail when there in non uniformity or randomness in testcases.
 
 
 	RECURRENCE RELATION->
