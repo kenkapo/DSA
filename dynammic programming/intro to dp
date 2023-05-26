@@ -31,3 +31,4 @@
 	Important patterns->
 	1.Dp on grids -> parent problem-> MINIMUM PATH SUM.
 	2.Dp on subsequences -> parent problem-> SUBSET SUM EQUALS TARGET.
+	3. Dp on strings -> parent problem-> LONGEST COMMON SUBSEQUNCE.
