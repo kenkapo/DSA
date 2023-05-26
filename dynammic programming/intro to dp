@@ -26,7 +26,10 @@
 	7.number of changing states in memoisation = number of nested loops in tabulation. 
 	8.bottom up means from base case to up.
 	9.top down means from up to base case and then after computing the answer from base case,we get the answer for top. 
-	
+	STEPS->
+	A.Initialise the base case.
+	B.Run the for loops on the changing states in opposite fashion.
+	C.Copy the recurrence.
 
 	Important patterns->
 	1.Dp on grids -> parent problem-> MINIMUM PATH SUM.
