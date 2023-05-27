@@ -16,6 +16,11 @@
 	2D optimised to 1D.
 	3D optimised to 2D.
 
+	DIFFERENCE BETWEEN TABULATION AND MEMOISATION->
+	tabulation is bottom up i.e. we start from the bottom(base case) and go to the top to find our answer.
+	memoisation is top down i.e. we start from the top the hit the base case and then again come to top to get the answer.
+	
+	
 	TABULATION->
 	1.declare the dp array of same size as declared in memoisation.
 	2.base case becomes initialisation.
