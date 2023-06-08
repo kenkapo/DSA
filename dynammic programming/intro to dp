@@ -18,7 +18,7 @@
 
 	DIFFERENCE BETWEEN TABULATION AND MEMOISATION->
 	tabulation is bottom up i.e. we start from the bottom(base case) and go to the top to find our answer.
-	memoisation is top down i.e. we start from the top the hit the base case and then again come to top to get the answer.
+	memoisation is top down i.e. we start from the top then hit the base case and then again come to top to get the answer.
 	
 	
 	TABULATION->
