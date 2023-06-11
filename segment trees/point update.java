@@ -1,3 +1,5 @@
+//TC is O(logN)
+// here node is the index we want to update and val is the value by which we will increment the value at that index by.
 public void pointUpdate(int i,int low,int high,int node,int val)
 {
 	if(low==high)
