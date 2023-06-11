@@ -1,5 +1,6 @@
 // maximum space segment trees take = 4*N.
-
+// TC for query=O(logN)
+// TC for build=O(N)
 
 class Solution
 {
