@@ -20,7 +20,7 @@ class Solution
 			return seg[i];
 		}
 		else if (low>r || high<l){return Integer.MIN_VALUE;}// query does not contain the range
-		else// query overlaps with the range
+		else// query partially overlaps with the range
 		{
 			int mid=(low+high)/2;
 			int left=queries(2*i+1,low,mid,l,r);
