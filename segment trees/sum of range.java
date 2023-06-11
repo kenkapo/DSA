@@ -8,7 +8,7 @@ class Solution
 	int []seg=new int [4*n];
 	public void build(int i,int low,int high,int []nums)
 	{
-		if(low==high){return seg[low]=nums[low];}
+		if(low==high){return seg[i]=nums[low];}
 		int mid=(low+high)/2;
 		build(2*i+1,low,mid,nums);
 		build(2*i+2,mid+1,high,nums);
