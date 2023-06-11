@@ -4,7 +4,7 @@ public void pointUpdate(int i,int low,int high,int node,int val)
 {
 	if(low==high)
 	{
-		seg[low]+=val;
+		seg[i]+=val;
 		return;
 	}
 	int mid=(low+high)/2;
